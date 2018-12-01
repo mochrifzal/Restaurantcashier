@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Summary"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerview2_id"
+        android:layout_width="match_parent"
+        android:layout_height="402dp">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <TextView
+        android:id="@+id/total_buy_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/total_buy"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/submit_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/submit"
+        android:textSize="40sp" />
+</LinearLayout>
